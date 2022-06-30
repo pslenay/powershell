@@ -1,0 +1,1 @@
+﻿New-DynamicDistributionGroup -Name "Dynamic_test" -Alias "Dynamic_test" -OrganizationalUnit "Loesk.lokal/ЦА/блабла" -RecipientContainer "Loesk.lokal" -RecipientFilter {(PostalCode -like "*444444*")}
