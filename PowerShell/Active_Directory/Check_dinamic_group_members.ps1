@@ -1,0 +1,2 @@
+﻿# Состав динамической группы рассылки
+Get-Recipient -RecipientPreviewFilter (Get-DynamicDistributionGroup "All_top_buh").RecipientFilter -OrganizationalUnit (Get-DynamicDistributionGroup "All_top_buh").RecipientContainer
