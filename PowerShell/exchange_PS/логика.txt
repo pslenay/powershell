@@ -1,0 +1,1 @@
+New-MailboxRepairRequest -Database 06 -CorruptionType SearchFolder,AggregateCounts,ProvisionedFolder,FolderView

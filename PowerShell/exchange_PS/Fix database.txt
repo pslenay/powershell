@@ -1,0 +1,5 @@
+Eseutil /r E0F /l “E:\MBX\ePersonal3\logs” /d “E:\MBX\ePersonal.edb” /i
+Eseutil /r E12 /l “E:\MBX\eEconFin” /s "E:\MBX\eEconFin" /d “E:\MBX\eEconFin\eEconFin.edb” /i
+Eseutil /g'E:\MBX\ePersonal\ePersonal.edb'
+Eseutil /p'E:\MBX\ePersonal\ePersonal.edb'
+

@@ -1,0 +1,11 @@
+Add-MailboxFolderPermission -Identity pushkarev-aa@loesk.ru:\Календарь -user "varlamova-av" -AccessRights Editor
+sert-luzanov
+trubachev
+melnikova
+duksin
+ivanova-tb
+gelgorn-ev
+Sert-sekr2
+matveev-uv
+agorokhov
+pushkarev-aa

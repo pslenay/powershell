@@ -1,0 +1,1 @@
+Set-ExchangeServer mail -ProductKey 7WJV6-H9RMH-F4267-3R2KG-F6PBY

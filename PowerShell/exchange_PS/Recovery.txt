@@ -1,0 +1,5 @@
+New-MailboxDatabase -Recovery -Name CapStroyRec -Server 00-mail -EdbFilePath "C:\Recover\CapStroy.edb" -LogFolderPath "C:\Recover"
+
+lynctest
+
+Restore-Mailbox -ID 'mgkorneev' -RecoveryDatabase RDB1 -RecoveryMailbox lynctest

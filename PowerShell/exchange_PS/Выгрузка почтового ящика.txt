@@ -1,0 +1,3 @@
+New-MailboxExportRequest -Mailbox slan-grishina -FilePath "\\exch2016.loesk.lokal\e$\slan-grishina.pst"
+
+"\\e\c$\ClusterStorage\Volume2\pst\kononenko.pst"

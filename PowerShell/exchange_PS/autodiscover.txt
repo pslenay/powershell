@@ -1,0 +1,1 @@
+Set-ClientAccessServer "exch2016" –AutoDiscoverServiceInternalUri "https://exch2016.loesk.lokal/Autodiscover/Autodiscover.xml"

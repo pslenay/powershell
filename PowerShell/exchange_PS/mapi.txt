@@ -1,0 +1,1 @@
+Get-MapiVirtualDirectory -Server exch2016 | Set-MapiVirtualDirectory -InternalUrl https://exch2016.loesk.ru/mapi -ExternalUrl https://exch2016.loesk.ru/mapi

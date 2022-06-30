@@ -1,0 +1,5 @@
+Search-Mailbox -Identity "agorokhov" -SearchQuery "Subject:Документы для ознакомления" -TargetMailbox "druzev" -TargetFolder "gorohov" -LogLevel Full
+
+Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery 'dogovor' -TargetMailbox "druzev" -TargetFolder "RKS" -LogLevel Full
+
+Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery '(sent:04/04/18..04/15/10) AND (subject:dogovor)' -TargetMailbox "druzev" -TargetFolder "РКС2" -LogLevel full

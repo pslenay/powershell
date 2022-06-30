@@ -1,0 +1,9 @@
+Get-User -RecipientTypeDetails User -Filter{ MemberofGroup -Eq 'CN=Filials,dc=loesk,dc=lokal' }| fl
+
+Get-User -OrganizationalUnit "Filials"| Enable-Mailbox 
+Get-User -OrganizationalUnit "Filials"| Enable-CsUser -RegistrarPool 00-sfb.loesk.lokal
+
+Import-Module SkypeforBusiness
+
+
+C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -noexit -command “cd $env:UserProfile; Write-Host ‘Loading Modules…’; Import-Module 'C:\Program Files\Common Files\Skype for Business Server 2015\Modules\SkypeForBusiness\SkypeForBusiness.psd1'"

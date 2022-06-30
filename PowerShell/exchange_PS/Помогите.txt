@@ -1,0 +1,1 @@
+Move-DatabasePath -Identity "Glengener" -EdbFilePath "C:\mbx\Glengener.edb" -LogFolderPath "C:\mbx\Glengener"

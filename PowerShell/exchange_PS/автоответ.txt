@@ -1,0 +1,1 @@
+Set-MailboxAutoReplyConfiguration kovalev-ae@loesk.ru ЦAutoReplyState Scheduled ЦStartTime У10/05/2017Ф ЦEndTime У10/23/2017Ф ЦExternalMessage У¬ отпуске до 23.10. ѕо всем вопросам обращатьс€ к ƒрузеву јлексею.Ф ЦInternalMessage У¬ отпуске до 23.10. ѕо всем вопросам обращатьс€ к ƒрузеву јлексею.Ф
